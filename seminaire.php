@@ -13,29 +13,29 @@
 </head>
 
 
-<body>
-<?php include('header.php'); ?>
 
-    <!--article Amma assis-->
-<section class="w-1200p center txt-center txt-justify line-h fs-18">
+<?php include('./layout/header.php'); ?>
+
+    <!---->
+<section class="container center txt-center txt-justify line-h fs-18">
 
 
-<div class='pt-2 pb-2'>
-        <h1 class='mt-0 '> Séminaire, colloque, réunion d'entreprise</h1>
+<div class='pb-2'>
+        <h1 class='mt-0 pt-3  '> Séminaire, colloque, réunion d'entreprise</h1>
         <p>Le bien-être a toute sa place lors de vos événement : séminaires, colloques ou réunions afin d'y apporter dynamisme, cohésion d'équipe, imagination, créativité, etc.</p>
     </div>
 
 
-
+  <!-- image seminaire entreprise-->
 <div>
-    <img class='h-auto' src="img/doin4-mini.jpg" width='1200px' height='500px'alt="">
+    <img class='img-none h-auto' src="img/doin4-mini.jpg" width='1200px' height='500px'alt="">
 </div>
    
 
     <div class='d-flex f-jc-center   '>
-        <a href="contact.php"><button class=" p-1 mt-2 b-radius fs-18 b-none color-4 bg pointer"><i class=" mr-1 fa fa-fw fa-envelope"></i>Me contacter ou prendre RDV</button></a>
+        <a href="contact.php" class=" p-1 mt-2 b-radius  b-none color-4 bg pointer"><i class=" mr-1 fa fa-fw fa-envelope"></i>Me contacter ou prendre RDV</a>
     </div>
-
+  <!-- objectif pour entreprise-->
 <div class='pb-5'>
     <h3 class='color-2'> Les objectifs pour l’entreprise</h3>
         Proposez un concept novateur et utile au bien être de vos salariés. 
@@ -55,7 +55,7 @@
 
        
      <div class='pb-2'>
-            <a href="contact.php"><button class=" b-radius d-block center p-1 mt-2 b-none color-4 bg pointer ">Demander un devis</button></a>
+            <a href="contact.php"><button class="  p-1 mt-2 b-radius fs-18 d-block center b-none color-4 bg pointer ">Demander un devis</button></a>
         </div>
 
 </section>
@@ -66,4 +66,4 @@
 
 
 
-<?php include('footer.php'); ?>
+<?php include('./layout/footer.php'); ?>

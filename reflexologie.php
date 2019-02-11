@@ -1,21 +1,9 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Au Pied Des Alpes</title>
-</head>
 
-
-<body>
-<?php include('header.php'); ?>
+<?php include('./layout/header.php'); ?>
 
 
 
-    <div class="w-1200p  center txt-justify fs-18 line-h  ">
+    <div class="container  center fs-18 line-h  ">
 
       <h1 class="mt-2 mb-0 fs-45  "> La réflexologie plantaire</h1>
  
@@ -29,14 +17,16 @@
             décision thérapeutique.</p></div>
 
 
-<div  class="d-flex pb-2">
+<div  class="d-flex f-wrap pb-2">
 <!--image piedReflexologie-->
 
     <div class='w-30'>
         <img class="Mw-100 h-auto" src="img/pied1.jpg"  width="400px" height="400px"alt="réflexologie">
-        <p><a href=" contact.php"><button class="w-100 color-4 bg fs-18 b-none h-50"><i class="fa fa-fw fa-envelope"></i>Me contacter <br> ou prendre RDV </button></a></p>
+        <p><a href=" contact.php"><button class="w-100 b-radius color-4 bg fs-18 b-none h-50"><i class="fa fa-fw fa-envelope"></i>Me contacter <br> ou prendre RDV </button></a></p>
     </div>
 
+
+    <!--deroulement seance-->
     <div class='w-70 pl-2'>
         <article class=""> 
             <h3 class="color-2 mt-0">Déroulement d’une séance.</h3>
@@ -53,7 +43,7 @@
 </div>
 
 
-<div class="d-flex  pb-2 ">
+<div class="d-flex f-wrap pb-2 ">
 
  
 
@@ -72,9 +62,10 @@
                 Espace Eveil<br>
                 57, Chemin des Ilettes<br>
                 74460 Tournon<br>
-               <a href="domicile.php"> <button class='bg fs-18 color-4 b-none w-200p h-50'>Voir les tarifs </button></a>
+               <a href="domicile.php#tarifs"> <button class=' b-radius mt-1 p-1 bg fs-18 color-4 b-none w-200p h-50'>Voir les tarifs </button></a>
         </div>
 
+<!-- a domicile-->
         <div class='w-70 pl-2'>
         <h3 class="color-2 mt-0">Séances à domicile</h3>
 
@@ -95,13 +86,14 @@
 </div>
 
 
-<div class="d-flex pb-2">
+<div class="d-flex f-wrap pb-2">
 
-    <div class="w-30">
+    <div class="w-30 largeur-100 img-entreprise">
         <!--image guilaine-->
         <img src="img/reflexo1.jpg" width="300px" height="400px"alt="réflexologie" alt="réflexologie plantaire">
     </div>
-<!--article-->
+
+<!--article pour les sportifs-->
 
     <div class="w-70 pl-2">
        <h3 class="color-2 mt-0">La réflexologie et ses bienfaits chez les sportifs </h3>
@@ -112,8 +104,8 @@
  </div>
 
 
-
-    <div class='txt-justify pb-2'>
+<!--article personnes agées-->
+    <div class='pb-2'>
         <h3 class="color-2 mt-0 ">Personnes âgées</h3>
          <p>
           La réflexologie accompagne et améliore le confort et la qualité de vie au quotidien des personnes âgées.
@@ -123,8 +115,8 @@
   
     </div>
 
-<div class='d-flex pb-2'>
-
+<div class='d-flex f-wrap pb-2'>
+<!--article pour les parents enfants-->
     <div class='w-70 pr-2'>
       <h3 class='color-2 mt-0'>Parents/Enfants</h3> 
  
@@ -134,13 +126,13 @@
          <p>L'enfant est également sujet au stress, les séances vont l'aider à le diminuer et lui redonner confiance en lui, l'amener à une plus grande attention et concentration au quotidien.
             La réflexologie peut également soulager certaines pathologies plus lourdes comme l’asthme, l’anorexie, l’autisme ou encore la dépression
          </p>
-         <a href="domicile.php"><button class="h-50 w-200p pointer color-4 bg fs-18 b-none">Voir les tarifs</button></a>  
+         <a href="domicile.php"><button class=" b-radius p-1 mt-2 pointer color-4 bg fs-18 b-none">Voir les tarifs</button></a>  
     </div>
 
 
     <div class=' w-30 txt-right'>
-       <img src="img/pied2.jpg" height='400px' width='300px' alt="">
-       <a href="contact.php"><button class=" h-50 w-300 fs-18 b-none color-4 bg pointer"><i class="fa fa-fw fa-envelope"></i>Me contacter ou prendre RDV</button></a>
+       <img  class='img-none'src="img/pied2.jpg" height='400px' width='300px' alt="">
+       <a href="contact.php"><button class=" display p-1 b-radius mt-1 fs-18 b-none color-4 bg pointer"><i class="fa fa-fw fa-envelope"></i>Me contacter ou prendre RDV</button></a>
     </div>
 
 
@@ -158,8 +150,6 @@
 
 
 
-<?php include('footer.php'); ?>
+<?php include('./layout/footer.php'); ?>
 
 
-</body>
-</html>

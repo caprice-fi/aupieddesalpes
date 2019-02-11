@@ -11,10 +11,10 @@
 
 
 <body>
-<?php include('header.php'); ?>
+<?php include('./layout/header.php'); ?>
 
     <!--article Amma assis-->
-<section class="w-1200p center txt-center txt-justify line-h fs-18">
+<section class="container center txt-center txt-justify line-h fs-18">
      <h1 class="fs-45 mt-2 mb-0 ">Le massage Amma assis</h1>
 
             <div class='mt-1'>
@@ -29,25 +29,25 @@
 <!--image amma assis-->
         <div class="">
             <img class='imgAmma' width="300px" height="400px"src="img/amma1.jpg" alt="massage amma assis">
-            <p><a href=" domicile.php"><button class="b-radius  color-4 bg b-none p-1 mt-2">Voir les tarifs</button></a></p>
+            <a href=" domicile.php#tarifs"><button class=" p-1 mt-2 b-radius fs-18 color-4 bg b-none ">Voir les tarifs</button></a>
         </div>
 
 
 
 
     <div class="ml-4">
-                
+             <!--article déroulé seance-->    
        <h3 class="color-2">  Déroulé d'une séance :</h3>
           La séance commence par un massage en profondeur du haut du dos, des bras et des mains suivie par  le bas du dos, la nuque et la tête. Cette première partie procure une grande relaxation. 
           La seconde phase est dynamisante, comprenant des étirements et des percussions. 
           La durée du massage est de 20 ou 30 minutes au choix.
 
-
+ <!--article Amma effet amma-->
           <h3 class="color-2" >Les effets du massage Amma assis sont immédiats</h3>
                Il apporte un bien-être, une relaxation générale et une détente physique. Il favorise également un sommeil réparateur, soulage les douleurs et réduit les tensions musculaires. 
                Il entraîne une meilleure élimination des toxines et diminue le stress et la fatigue en amenant calme et apaisement.
 
-                <a href=" contact.php"><button class="b-radius p-1 mt-2 color-4 bg   b-none ">Me contacter ou prendre RDV</button></a>
+                <a href=" contact.php"><button class=" p-1 mt-2 b-radius fs-18 color-4 bg   b-none ">Me contacter ou prendre RDV</button></a>
                
             </div>
 
@@ -67,7 +67,7 @@
     </main>
    
 
-    <?php include('footer.php'); ?>
+    <?php include('./layout/footer.php'); ?>
 
 
 
